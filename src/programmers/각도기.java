@@ -1,4 +1,4 @@
-package lv0;
+package programmers;
 
 public class 각도기 {
     public static void main(String[] args) {

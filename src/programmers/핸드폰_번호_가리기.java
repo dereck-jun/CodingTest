@@ -1,4 +1,4 @@
-package lv0;
+package programmers;
 
 public class 핸드폰_번호_가리기 {
     public static void main(String[] args) {

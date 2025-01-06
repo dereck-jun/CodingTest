@@ -1,4 +1,4 @@
-package lv0;
+package programmers;
 
 public class 평균_구하기 {
     public static void main(String[] args) {

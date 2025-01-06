@@ -1,4 +1,4 @@
-package lv0;
+package programmers;
 
 public class 콜라츠_추측 {
     public static void main(String[] args) {

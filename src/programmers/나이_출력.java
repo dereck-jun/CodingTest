@@ -1,4 +1,4 @@
-package lv0;
+package programmers;
 
 public class 나이_출력 {
     public static void main(String[] args) {

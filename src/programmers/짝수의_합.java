@@ -1,6 +1,4 @@
-package lv0;
-
-import java.util.stream.IntStream;
+package programmers;
 
 public class 짝수의_합 {
     public static void main(String[] args) {

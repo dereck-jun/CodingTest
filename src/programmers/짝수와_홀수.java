@@ -1,4 +1,4 @@
-package lv0;
+package programmers;
 
 public class 짝수와_홀수 {
     public static void main(String[] args) {

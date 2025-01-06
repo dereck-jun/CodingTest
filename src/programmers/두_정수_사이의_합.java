@@ -1,4 +1,4 @@
-package lv0;
+package programmers;
 
 public class 두_정수_사이의_합 {
     public static void main(String[] args) {

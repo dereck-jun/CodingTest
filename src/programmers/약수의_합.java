@@ -1,6 +1,6 @@
-package lv0;
+package programmers;
 
-public class 나머지가_1이_되는_수_찾기 {
+public class 약수의_합 {
     public static void main(String[] args) {
         Solution solution = new Solution();
         int result = solution.solution(12);
@@ -10,13 +10,13 @@ public class 나머지가_1이_되는_수_찾기 {
     static class Solution {
         public int solution(int n) {
             int answer = 0;
-            for (int i = 3; i < n; i++) {
-                if (n % i == 1) {
-                    answer = i;
-                    break;
+
+            for (int i = 1; i <= n / 2; i++) {
+                if (n % i == 0) {
+                    answer += i;
                 }
             }
-            return answer;
+            return answer + n;
         }
     }
 }

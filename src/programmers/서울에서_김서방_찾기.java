@@ -1,4 +1,4 @@
-package lv0;
+package programmers;
 
 public class 서울에서_김서방_찾기 {
     public static void main(String[] args) {

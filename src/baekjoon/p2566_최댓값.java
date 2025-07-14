@@ -11,23 +11,24 @@ public class p2566_최댓값 {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		StringTokenizer st;
 
-		int[][] arr = new int[9][9];
 		int max = 0;
-		String idx = "";
+		int row = 0;
+		int col = 0;
 
 		for (int i = 0; i < 9; i++) {
 			st = new StringTokenizer(br.readLine());
 			for (int j = 0; j < 9; j++) {
-				arr[i][j] = Integer.parseInt(st.nextToken());
-				if (arr[i][j] > max) {
-					max = arr[i][j];
-					idx = String.valueOf((i + 1) + " " + (j + 1));
+				int num = Integer.parseInt(st.nextToken());
+				if (max <= num) {
+					max = num;
+					row = i + 1;
+					col = j + 1;
 				}
 			}
 		}
 
 		System.out.println(max);
-		System.out.println(idx);
+		System.out.println(row + " " + col);
 	}
 
 }

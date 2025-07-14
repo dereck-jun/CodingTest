@@ -21,7 +21,7 @@ public class p2566_최댓값 {
 				arr[i][j] = Integer.parseInt(st.nextToken());
 				if (arr[i][j] > max) {
 					max = arr[i][j];
-					idx = String.valueOf(i + " " + j);
+					idx = String.valueOf((i + 1) + " " + (j + 1));
 				}
 			}
 		}

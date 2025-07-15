@@ -19,7 +19,7 @@ public class p2566_최댓값 {
 			st = new StringTokenizer(br.readLine());
 			for (int j = 0; j < 9; j++) {
 				int num = Integer.parseInt(st.nextToken());
-				if (max <= num) {
+				if (max <= num) {    // 한 번도 갱신되지 않았을 경우를 생각해야 함
 					max = num;
 					row = i + 1;
 					col = j + 1;

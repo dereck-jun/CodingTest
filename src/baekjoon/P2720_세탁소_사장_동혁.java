@@ -24,8 +24,8 @@ public class P2720_세탁소_사장_동혁 {
 				} else if (5 <= change) {
 					cents[2] = change / 5;
 					change %= 5;
-				} else if (1 <= change) {
-					cents[3] = change / 1;
+				} else {
+					cents[3] = change;
 					change %= 1;
 				}
 			}
